@@ -10,6 +10,8 @@ h1 {
 #category {
   font-family: Staatliches;
   font-weight: 500;
+  margin-top: -8em;
+  color: white;
 }
 
 #title {
@@ -17,6 +19,8 @@ h1 {
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 1.13636;
+  color: white;
+  margin-top: -1em;
 }
 
 #banner {
@@ -38,4 +42,9 @@ h1 {
 img:hover {
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+p {
+  color:#fff;
+  margin-top: -1em;
 }

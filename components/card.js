@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "./image";
+import Moment from "react-moment";
 
 const Card = ({ article }) => {
   return (
@@ -16,6 +17,9 @@ const Card = ({ article }) => {
             </p>
             <p id="title" className="uk-text-large">
               {article.title}
+            </p>
+            <p>
+              <Moment format="MMM Do YYYY">{article.published_at}</Moment>
             </p>
           </div>
         </div>
